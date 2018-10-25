@@ -1,0 +1,21 @@
+{
+  "name": "Check Edit Model",
+  "version": "1.0.0",
+  "description": "Check if an object has the right number of associations, some unique property and can fill automatically some property",
+  "main": "src/checkEditModel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevakee716/checkEditModel.git"
+  },
+  "author": "Mathias Pfauwadel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nevakee716/checkEditModel/issues"
+  },
+  "homepage": "https://github.com/nevakee716/checkEditModel/wiki",
+  "wiki": "https://github.com/nevakee716/checkEditModel/wiki",
+  "evolve-version": "4.2"
+}
