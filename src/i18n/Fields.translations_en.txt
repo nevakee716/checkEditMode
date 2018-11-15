@@ -8,6 +8,11 @@ editmode_pleaseEnterValuesForTheFollowingMandatoryAssociations = Please associat
 editmode_xCannotBeCreatedUntilAllMandatoryAssociationsAreCompleted = Can not create {0} until all associations are specified correctly
 editmode_xCannotBeUpdatedUntilAllMandatoryAssociationsAreCompleted = Can not change {0} until all associations are specified correctly 
 editmode_UnableToRemoveTheLastAssociatedObject = Can not change {0} until all associations are specified correctly 
+checkeditmode_propertywihtoutvalue = Property without value
+checkeditmode_notuniquevalue = The value is not unique
+checkeditmode_minimunassociatedobjects = associated objects minimum
+checkeditmode_maximumassociatedobjects = associated objects maximum
+
 
  
 
