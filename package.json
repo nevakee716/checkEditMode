@@ -1,6 +1,6 @@
 {
   "name": "Check Edit Model",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if an object has the right number of associations, some unique property and can fill automatically some property",
   "main": "src/checkEditModel.js",
   "scripts": {
