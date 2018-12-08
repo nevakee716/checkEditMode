@@ -84,7 +84,7 @@
         if (config.automaticProperty.hasOwnProperty(propertyScriptName)) {
           let prop = cwAPI.mm.getProperty(cwAPI.getCurrentView().rootObjectType,propertyScriptName);
           if (this.sourceObject.properties[propertyScriptName] === undefined && prop) {
-            this.sourceObject.displayNames[propertyScriptName]  = prop.name ; 
+            this.sourceObject.displayNames[propertyScriptName] = prop.name + $.i18n.prop('editmode_Automatique'); 
             this.sourceObject.properties[propertyScriptName] = "";
           }
           this.pendingObject.properties[propertyScriptName] = this.getDisplayString(config.automaticProperty[propertyScriptName]);
