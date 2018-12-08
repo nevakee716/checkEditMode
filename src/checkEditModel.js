@@ -71,13 +71,20 @@
 
   };
 
+
+
+
+
+
   cwApi.CwMandatoryValueChange.prototype.modifyAutomaticProperty = function(config) {
 
     var propertyScriptName;
     if (config.automaticProperty) {
       for (propertyScriptName in config.automaticProperty) {
         if (config.automaticProperty.hasOwnProperty(propertyScriptName)) {
-          if (this.sourceObject.properties[propertyScriptName] === undefined) {
+          let prop = cwAPI.mm.getProperty(cwAPI.getCurrentView().rootObjectType,propertyScriptName);
+          if (this.sourceObject.properties[propertyScriptName] === undefined && prop) {
+            this.sourceObject.displayNames[propertyScriptName]  = prop.name ; 
             this.sourceObject.properties[propertyScriptName] = "";
           }
           this.pendingObject.properties[propertyScriptName] = this.getDisplayString(config.automaticProperty[propertyScriptName]);

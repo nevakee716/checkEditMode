@@ -12,3 +12,4 @@ checkeditmode_propertywihtoutvalue = Propriété Sans Valeur
 checkeditmode_notuniquevalue = La valeur n'est pas unique
 checkeditmode_minimunassociatedobjects = objets associés minimum
 checkeditmode_maximumassociatedobjects = objets associés maximum
+editmode_Automatique = (Automatiquement Remplie)
